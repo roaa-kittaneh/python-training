@@ -2,6 +2,9 @@
 
 This is a simple CLI profile script written in Python.
 
+<img width="615" height="118" alt="image" src="https://github.com/user-attachments/assets/4b2ee062-3de0-421c-9f66-b255df91cac4" />
+
+
 ## Project Overview
 
 This project demonstrates:
