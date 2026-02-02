@@ -19,7 +19,6 @@ cd python-training
 2. **(Optional) Create and activate a virtual environment:**
    python -m venv venv
 venv\Scripts\activate    # Windows
-# source venv/bin/activate  # Mac/Linux
 
 3. **Install formatting and linting tools (optional, if not installed globally):**
    pip install --upgrade pip
