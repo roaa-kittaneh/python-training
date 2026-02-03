@@ -16,7 +16,6 @@ Core Logic: Building scripts that utilize type hints, command-line arguments (sy
 
 Validation & Testing: Implementing robust input validation and error handling (handling TypeError and ValueError) supported by a comprehensive suite of unit tests using pytest.
 
-Version Control: Managing the entire lifecycle through Git/GitHub with a focus on clean commits.
 
 ## How to Run
 
