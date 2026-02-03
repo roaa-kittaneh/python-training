@@ -7,15 +7,11 @@ This is a simple CLI profile script written in Python.
 
 
 
-## project Overview
+##  Project Overview
 In this training, I implemented a complete development cycle including:
-
-Environment & Tooling: Setting up isolated environments with venv and maintaining code quality using black (formatting) and flake8 (linting).
-
-Core Logic: Building scripts that utilize type hints, command-line arguments (sys.argv), and advanced control flow (truthy/falsy logic and short-circuiting).
-
-Validation & Testing: Implementing robust input validation and error handling (handling TypeError and ValueError) supported by a comprehensive suite of unit tests using pytest.
-
+* **Environment & Tooling:** Setting up isolated environments with `venv` and maintaining code quality using `black` (formatting) and `flake8` (linting).
+* **Core Logic:** Building scripts that utilize type hints, command-line arguments (`sys.argv`), and advanced control flow (truthy/falsy logic and short-circuiting).
+* **Validation & Testing:** Implementing robust input validation and error handling (handling `TypeError` and `ValueError`) supported by a comprehensive suite of unit tests using `pytest`.
 
 ## How to Run
 
@@ -30,20 +26,21 @@ venv\Scripts\activate    # Windows
    pip install black flake8
    pip install pytest
 
-4. ** Project Structure**
-   python-training/
-├── profile.py                # CLI script using sys.argv & type hints
-├── bmi.py                   # BMI Logic with strict input validation
-├── test_bmi.py              # Unit tests for BMI calculator
-└── venv/                    # Virtual environment (local only)
-
-
-5. **Run the Scripts:**
+## Run the Scripts:
    python profile.py [Name] [Age] [Location]
 
-6. **Execute Tests:**
+## Execute Tests:
    pytest -v
 
-Only the main script profile.py is needed to run the profile card.
+
+##  Project Structure
+```text
+python-training/
+├── profile.py          # CLI script using sys.argv & type hints
+├── bmi.py              # BMI Logic with strict input validation
+├── test_bmi.py         # Unit tests for BMI calculator
+└── venv/               # Virtual environment (ignored by Git)
+
+
 
 
